@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Geography Guru</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+	
+<div class="game">
+
+<h1> Are you a GEOGRAPHY GURU?</h1>
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-sm-6">
+				<div>Correct: 
+					<div id="Wins"><h3>0</h3></div>
+				</div>
+			</div>
+
+			<div class="col-sm-6">
+				<div>Incorrect: 
+					<div id="Losses"><h3>0</h3></div>
+				</div>
+			</div>
+
+		</div>
+				
+<br>
+
+		<div class="row">
+			<div class="col-sm-12">	
+				<div>Time remaining: 
+					<div id="timeRemaining"><h1>30</h1></div>
+				</div>
+			</div>
+		</div>
+
+	</div>	
+
+
+<br>
+<button id="startTimer">Reset game and start timer</button>
+<br>
+<br>
+
+<form>
+
+<div>
+
+<div class="quiz">
+
+	<p>	1. What is the capital of Madagascar? </p>
+		<!-- answer is C -->
+    <input type="radio" id="option1A"
+           name="possibleAnswer1" value="A">
+		<label for="option1A">A. Moscow</label>
+		
+    <input type="radio" id="option1B"
+           name="possibleAnswer1" value="B">
+		<label for="option1B">B. Paris</label>
+		
+    <input type="radio" id="option1C"
+           name="possibleAnswer1" value="C">
+		<label for="option1C">C. Antananarivo</label>
+		
+    <input type="radio" id="option1D"
+           name="possibleAnswer1" value="D">
+		<label for="option1D">D. London</label>
+
+<div>
+
+	<p>	2. What is the longest river in Bangladesh? </p>
+		<!-- answer is D -->
+		<input type="radio" id="option2A"
+				name="possibleAnswer2" value="A">
+		<label for="option2A">A. Amazon</label>
+				
+		<input type="radio" id="option2B"
+				name="possibleAnswer2" value="B">
+		<label for="option2B">B. Mississippi</label>
+				
+		<input type="radio" id="option2C"
+				name="possibleAnswer2" value="C">
+		<label for="option2C">C. Nile</label>
+				
+		<input type="radio" id="option2D"
+				name="possibleAnswer2" value="D">
+		<label for="option2D">D. Padma</label>
+		
+</div>
+
+
+<div>
+
+	<p>	3. What is the deepest freshwater lake in the world? </p>
+		<!-- answer is B -->
+		<input type="radio" id="option3A"
+				name="possibleAnswer3" value="A">
+		<label for="option3A">A. Victoria</label>
+					
+		<input type="radio" id="option3B"
+				name="possibleAnswer3" value="B">
+		<label for="option3B">B. Baikal</label>
+					
+		<input type="radio" id="option3C"
+				name="possibleAnswer3" value="C">
+		<label for="option3C">C. Superior</label>
+					
+		<input type="radio" id="option3D"
+				name="possibleAnswer3" value="D">
+		<label for="option3D">D. Kivu</label>
+			
+</div>
+
+
+<div>
+
+	<p>	4. Which of these cities is furthest north? </p>
+<!-- answer is A -->
+		<input type="radio" id="option4A"
+				name="possibleAnswer4" value="A">
+		<label for="option4A">A. Hammerfest</label>
+			
+		<input type="radio" id="option4B"
+				name="possibleAnswer4" value="B">
+		<label for="option4B">B. Tromso</label>
+			
+		<input type="radio" id="option4C"
+				name="possibleAnswer4" value="C">
+		<label for="option4C">C. Helsinki</label>
+			
+		<input type="radio" id="option4D"
+			name="possibleAnswer4" value="D">
+		<label for="option4D">D. Murmansk</label>
+	
+</div>
+
+
+<div>
+
+		<p>	5. What is the tallest mountain in South America? </p>
+		<!-- answer is D -->
+			<input type="radio" id="option5A"
+				name="possibleAnswer5" value="A">
+			<label for="option5A">A. Cotopaxi</label>
+							
+			<input type="radio" id="option5B"
+					name="possibleAnswer5" value="B">
+			<label for="option5B">B. Alpamayo</label>
+							
+			<input type="radio" id="option5C"
+					name="possibleAnswer5" value="C">
+			<label for="option5C">C. Illimani</label>
+							
+			<input type="radio" id="option5D"
+					name="possibleAnswer5" value="D">
+			<label for="option5D">D. Aconcagua</label>
+					
+</div>
+	
+
+
+<div>
+
+	<p>	6. What is the largest desert in the world? </p>
+		<!-- answer is B -->
+		<input type="radio" id="option6A"
+				name="possibleAnswer6" value="A">
+		<label for="option6A">A. Kalahari</label>
+								
+		<input type="radio" id="option6B"
+				name="possibleAnswer6" value="B">
+		<label for="option6B">B. Antartica</label>
+								
+		<input type="radio" id="option6C"
+				name="possibleAnswer6" value="C">
+		<label for="option6C">C. Gobi</label>
+								
+		<input type="radio" id="option6D"
+				name="possibleAnswer6" value="D">
+		<label for="option6D">D. Sahara</label>
+
+</div>		
+
+
+</div>
+
+<br>
+
+<div>
+		<button id='submit' type="submit">Submit</button>
+</div>
+
+<br>
+
+</form>
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+
+<!-- jQuery link: -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+
+<!-- javascript link -->
+
+<script type="text/javascript" src="assets/javascript/app.js">
+</script>
+
+
+</body>
+</html>

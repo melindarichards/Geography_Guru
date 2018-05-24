@@ -1,0 +1,69 @@
+body {
+	background-image: url("http://www.wallmurals.ie/wp-content/uploads/2015/09/world-map-mural-for-a-office-1200x883.jpg");
+}
+
+.game {
+	text-align: center;
+	color: #4d2800;
+}
+
+.container {
+	background: rgba(247, 228, 200, 0.60);
+	margin: auto;
+	height: 250px;
+	width: 300px;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	color: 
+}
+
+.quiz {
+	background: rgba(247, 228, 200, 0.60);
+	margin: auto;
+	height: 375px;
+	width: 450px;
+	padding: 20px;
+	font-weight: bold;
+}
+
+#timeRemaining {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cc3300;
+  text-align: center;
+	background: bisque;
+	width: 100px;
+  height: 75px;
+	overflow: auto;
+	margin: auto;
+	text-align: center;
+}
+
+#Wins {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgreen;
+  text-align: center;
+	background: bisque;
+	width: 65px;
+  height: 65px;
+	overflow: auto;
+	margin: auto;
+  text-align: center;
+}
+
+
+#Losses {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #990000;
+  text-align: center;
+	background: bisque;
+	width: 65px;
+  height: 65px;
+	overflow: auto;
+	margin: auto;
+  text-align: center;
+}
+
+
+
+}
