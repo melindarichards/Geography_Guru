@@ -8,7 +8,7 @@ A countdown timer shows the time remaining to finish the quiz.
 
 The game ends when the time runs out, at which point the page reveals the number of questions that were answered correctly and incorrectly.
 
-![Screenshot](assets/images/screenshotGeographyGuru.png)
+![Screenshot](images/screenshotGeographyGuru.png)
 
 -------
 This game was created using HTML, CSS, and JavaScript.
